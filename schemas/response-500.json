@@ -1,32 +1,32 @@
 {
   "type": "object",
   "$schema": "http://json-schema.org/draft-03/schema",
-  "id": "http://cs-proj-srv:8083/service-error-logging/error.php",
+  "id": "http://cs-proj-srv:8083/component-device-management/src/create.php",
   "required": true,
   "properties": {
     "code": {
       "type": "number",
-      "id": "http://cs-proj-srv:8083/service-error-logging/error.php/code",
+      "id": "http://cs-proj-srv:8083/component-device-management/src/create.php/code",
       "required": true
     },
     "data": {
       "type": "object",
-      "id": "http://cs-proj-srv:8083/service-error-logging/error.php/data",
+      "id": "http://cs-proj-srv:8083/component-device-management/src/create.php/data",
       "required": true
     },
     "debug": {
       "type": "object",
-      "id": "http://cs-proj-srv:8083/service-error-logging/error.php/debug",
+      "id": "http://cs-proj-srv:8083/component-device-management/src/create.php/debug",
       "required": true,
       "properties": {
         "data": {
           "type": "object",
-          "id": "http://cs-proj-srv:8083/service-error-logging/error.php/debug/data",
+          "id": "http://cs-proj-srv:8083/component-device-management/src/create.php/debug/data",
           "required": true
         },
         "message": {
           "type": "string",
-          "id": "http://cs-proj-srv:8083/service-error-logging/error.php/debug/message",
+          "id": "http://cs-proj-srv:8083/component-device-management/src/create.php/debug/message",
           "required": true
         }
       }

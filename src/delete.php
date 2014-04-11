@@ -11,6 +11,19 @@ try {
 	require 'vendor/autoload.php';
 	
 
+	if ($_SERVER['REQUEST_METHOD'] != 'POST') {
+		$response = array(
+			'code' => 400,
+			'data' => new stdClass,
+			'debug' => array(
+				'data' => new stdClass,
+				'message' => 'This service only accepts a POST Request.'
+			)
+		);
+
+		die(json_encode($response, JSON_PRETTY_PRINT));
+	}
+
 	if (!isset($_GET['id'])) {
 		$response = array(
 			'code' => 400,
