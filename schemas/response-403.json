@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "http://cs-proj-srv:8083/service-error-logging/error.php",
+  "required": true,
+  "properties": {
+    "code": {
+      "type": "number",
+      "id": "http://cs-proj-srv:8083/service-error-logging/error.php/code",
+      "required": true
+    },
+    "data": {
+      "type": "object",
+      "id": "http://cs-proj-srv:8083/service-error-logging/error.php/data",
+      "required": true,
+      "properties": {
+        "success": {
+          "type": "boolean",
+          "id": "http://cs-proj-srv:8083/service-error-logging/error.php/data/success",
+          "required": true
+        }
+      }
+    },
+    "debug": {
+      "type": "object",
+      "id": "http://cs-proj-srv:8083/service-error-logging/error.php/debug",
+      "required": true
+    }
+  }
+}
