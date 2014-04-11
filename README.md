@@ -1,5 +1,5 @@
-Project H.A.S Component Documentation - Error Handling Component
------------------------------------------------------------------
+Project H.A.S Component Documentation - Device Management Component
+--------------------------------------------------------------------
 Author Group: **Home Automation Systems**
 
 Prepared for: Dr. Curtis Busby-Earle
